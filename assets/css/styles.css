@@ -1,0 +1,73 @@
+/* -------------------> FONT <------------------- */
+@font-face {
+    font-family: EditorialNew;
+    src: url("../font/EditorialNewRegular.otf") format("opentype");
+}
+
+/* -------------------> STYLE <------------------- */
+@font-face {
+    font-family: EditorialNew-Italic;
+    src: url("../font/EditorialNewItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SuisseIntl;
+    src: url("../font/SuisseIntlRegular.otf") format("opentype");
+}
+
+body{
+    font-family: "SuisseIntl";
+    margin: 0 1vw 0 1vw;
+    background-color: white;
+}
+
+#container {
+    color:black;
+}
+
+.header{
+    min-height: 8vh;
+    padding-bottom: 1vh;
+}
+
+h1 {
+    font-family: "EditorialNew";
+    color:blue;
+    font-size: 3em;
+    margin: 1vh 0vh 0vh 0vh;
+}
+
+h2{
+    font-family: "EditorialNew";
+    font-size: 2em;
+    margin: 0px;
+}
+
+h3{
+    font-family: "EditorialNew";
+    font-size: 1em;
+    margin: 1.5vh 0vh 0vh 0vh;
+}
+
+.news{
+    width: 100%;
+    border-top: 1px solid black;
+    margin: 0 -1vw 0 -1vw;
+    padding: 0vw 1vw 1vw 1vw;
+}
+
+.newsDate{
+    font-size: .8em;
+}
+
+.newsText{
+    font-size: .8em;
+    margin-top: 1.5vh;
+}
+
+@media screen and (min-width: 450px) {
+    .newsText{
+        font-size: 1em;
+        margin-top: 2vh;
+    }
+  }
